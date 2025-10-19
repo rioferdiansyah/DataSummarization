@@ -12,7 +12,8 @@ The workflow integrates **LangChain + Replicate** for LLM orchestration and uses
 
 ## Raw Dataset
 The raw dataset used in this analysis:
-**[Generative AI Tools – Platforms 2025.csv](./data/Generative%20AI%20Tools%20-%20Platforms%202025.csv)**  https://www.kaggle.com/datasets/tarekmasryo/generative-ai-tools-and-platforms-2025
+**[Generative AI Tools – Platforms 2025.csv](./data/Generative%20AI%20Tools%20-%20Platforms%202025.csv)**
+Download from https://www.kaggle.com/datasets/tarekmasryo/generative-ai-tools-and-platforms-2025
 Each record includes:
 - `tool_name`: Name of the AI platform/tool  
 - `modality_canonical`: The modality or application type (e.g., code, text, image, video, etc.)
@@ -58,4 +59,5 @@ This allows fully automated classification and insight generation without manual
 
 Install dependencies:
 ```bash
+
 pip install -r requirements.txt
